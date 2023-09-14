@@ -18,7 +18,7 @@ export default function TableBody(props: TableBodyPropType) {
 
   return (
     <Tbody>
-      {Array.from({ length: 2 })
+      {Array.from({ length: 5 })
         .fill(0)
         .map((currNum, index) => {
           return (
